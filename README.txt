@@ -4,13 +4,13 @@ selects in dojo terms): one to select a state, and one to select a county.
 Once a state or county is selected, the map zooms to that state or county. 
 
 State and county extents are retrieved from JSON files via a dojo data 
-store. WGS84 extents are used by default but JSON files are provided 
-with NAD83 and Web Mercator extents. If the map's spatial reference doesn't 
+store. Web Mercator extents are used by default but JSON files are provided 
+with NAD83 and WGS84 extents. If the map's spatial reference doesn't 
 match the spatial reference of the extents in the JSON file, the extent 
 is sent to a geometry service to be projected before being passed to the map.
 
 This dijit has been is intended to be used with v2.1 of the ArcGIS JavaScript
-API but it also works with 1.x version of the API.
+API but it also works with 1.x versions of the API.
 
 Set up steps:
 1. copy the ZoomTo folder and zoomTo.html to a directory on your web server
