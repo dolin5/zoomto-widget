@@ -1,0 +1,14 @@
+body { font-family: sans-serif; }
+
+label {
+  display: inline-block;
+  width: 50px;
+}
+
+.iconZoomer {
+	width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url('../images/zoom-16x16.png');
+}

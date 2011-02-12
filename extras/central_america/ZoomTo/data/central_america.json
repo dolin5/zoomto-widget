@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "name": "Guatemala", 
+      "extent": {
+        "_value": {
+          "xmin": -10268864, 
+          "ymin": 1545073, 
+          "ymax": 2016567, 
+          "xmax": -9820019, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }, 
+    {
+      "name": "Belize", 
+      "extent": {
+        "_value": {
+          "xmin": -9931498, 
+          "ymin": 1791970, 
+          "ymax": 2094244, 
+          "xmax": -9804774, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }, 
+    {
+      "name": "Costa Rica", 
+      "extent": {
+        "_value": {
+          "xmin": -9563612, 
+          "ymin": 896349, 
+          "ymax": 1255897, 
+          "xmax": -9190934, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }, 
+    {
+      "name": "El Salvador", 
+      "extent": {
+        "_value": {
+          "xmin": -10029484, 
+          "ymin": 1477605, 
+          "ymax": 1623823, 
+          "xmax": -9768317, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }, 
+    {
+      "name": "Honduras", 
+      "extent": {
+        "_value": {
+          "xmin": -9946208, 
+          "ymin": 1458201, 
+          "ymax": 1807227, 
+          "xmax": -9254195, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }, 
+    {
+      "name": "Nicaragua", 
+      "extent": {
+        "_value": {
+          "xmin": -9761586, 
+          "ymin": 1199200, 
+          "ymax": 1689904, 
+          "xmax": -9254195, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }, 
+    {
+      "name": "Panama", 
+      "extent": {
+        "_value": {
+          "xmin": -9242889, 
+          "ymin": 805892, 
+          "ymax": 1074799, 
+          "xmax": -8595597, 
+          "spatialReference": {
+            "wkid": 3857
+          }
+        }, 
+        "_type": "Extent"
+      }
+    }
+  ], 
+  "identifier": "name", 
+  "label": "name"
+}
