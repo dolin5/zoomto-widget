@@ -40,26 +40,24 @@
     </script>
     <script src="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/"></script>
     <script>
-      dojo.require("esri.map");
-      dojo.require("extras.ZoomTo");
-
       var map, zoomer;
-      function init() {
-        console.log("init");
-        map = new esri.Map("map", { 
-          basemap: "topo",
-          center: [-94.219, 38.273],
-          zoom: 4
+
+      require([
+        "extras/ZoomTo", "dojo/ready", "esri/map" 
+      ], function(ZoomTo, ready) {
+        // use ready (as opposed to dojo/domReady!) so that all modules
+        // are loaded before trying to create the zoom to widget
+        ready(function() {
+          map = new esri.Map("map", { 
+            basemap: "topo",
+            center: [-94.219, 38.273],
+            zoom: 4
+          });
+          
+          zoomer = new ZoomTo({ map: map }, dojo.byId("zoomer"));
+          zoomer.startup();
         });
-        
-        zoomer = new extras.ZoomTo({ map: map }, dojo.byId("zoomer"));
-        zoomer.startup();
-        console.log("zoomer widget: ", zoomer);
-        
-        // connect state zoom dijit and map            
-        // zoomer.init(map);
-      }
-    dojo.ready(init);
+      });
     </script>
   </head>
   <body class="tundra">

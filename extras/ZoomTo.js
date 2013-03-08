@@ -94,7 +94,7 @@ define([
       //zoom to the extent for a state or county after a selection is made
       connect.connect(this.stateFS, "onChange", this, this.stateZoomer);
       connect.connect(this.countyFS, "onChange", this, this.countyZoomer);
-      console.log("connected to this state/countyFS events");
+      
       this.mapSpatRef = this.map.spatialReference.wkid; //keep track of the map's wkid so we know whether or not to use a geom. service
       this.started = true;
     },
